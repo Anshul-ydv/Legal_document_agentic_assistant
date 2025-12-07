@@ -1,0 +1,20 @@
+{
+  "last_verified": "2025-11-17T00:00:00Z",
+  "features": {
+    "dynamic_planning": {
+      "enabled": true,
+      "implementation": "legal-doc-processor-a/src/agents/planning_agent.py",
+      "notes": "Strategy changes (standard/advanced/bulk_review) based on complexity and page count."
+    },
+    "parallel_execution": {
+      "enabled": true,
+      "implementation": "legal-doc-processor-a/src/agents/parallel_insights_agent.py",
+      "notes": "ThreadPoolExecutor runs clause, summary, risk, and dispatch concurrently."
+    },
+    "audit_logging": {
+      "enabled": true,
+      "implementation": "legal-doc-processor-a/src/monitoring/callbacks.py",
+      "notes": "MongoDB logging with per-event JSON snapshots stored under audits/."
+    }
+  }
+}
