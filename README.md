@@ -15,16 +15,16 @@ The system consists of two connected Agentic Development Kits (ADKs):
 ## Features
 
 ### ADK-A: Legal Document Processor
-- 📄 **Document Ingestion**: Supports PDF, DOCX, and TXT formats
-- 🔍 **Clause Extraction**: AI-powered identification and classification of legal clauses
-- ⚠️ **Risk Detection**: Intelligent risk assessment with RAG-enhanced analysis
-- 🔄 **Dynamic Model Routing**: Automatic selection between Gemini Flash and Pro models
+-  **Document Ingestion**: Supports PDF, DOCX, and TXT formats
+-  **Clause Extraction**: AI-powered identification and classification of legal clauses
+-  **Risk Detection**: Intelligent risk assessment with RAG-enhanced analysis
+-  **Dynamic Model Routing**: Automatic selection between Gemini Flash and Pro models
 
 ### ADK-B: Compliance Advisor
-- ✨ **Compliance Suggestions**: AI-generated recommendations for risky clauses
-- 📋 **Template Library**: Pre-vetted compliant clause templates
-- 📊 **Audit Trail**: Complete tracking of all analysis steps
-- 📝 **Report Synthesis**: Professional markdown reports with executive summaries
+-  **Compliance Suggestions**: AI-generated recommendations for risky clauses
+-  **Template Library**: Pre-vetted compliant clause templates
+-  **Audit Trail**: Complete tracking of all analysis steps
+-  **Report Synthesis**: Professional markdown reports with executive summaries
 
 ## Project Structure
 
